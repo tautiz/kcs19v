@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-areas:
+        'd a a'
+        'd c c'
+        'd p p'
+    ;
+    grid-template-columns: 200px auto 100px;
+    grid-template-rows: 50px auto 75px;
+}
+
+body>header{
+    grid-area: a;
+    background-color: blueviolet;
+}
+body>section{
+    grid-area: d;
+    background-color: red;
+}
+body>main{
+    grid-area: c;
+    background-color: green;
+}
+body>footer{
+    grid-area: p;
+    background-color: pink;
+}

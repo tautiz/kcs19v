@@ -1,0 +1,29 @@
+body {
+    background-color: aqua;
+    color: blue;
+}
+
+.profilio_foto {
+    width: 400px;
+}
+
+.elementas {
+    font-size: 24px;
+}
+
+.raudonas {
+    color: red
+}
+
+.melynas {
+    background-color: green;
+}
+
+#unikalus_elementas {
+    font-family: "Comic Sans MS";
+    color: greenyellow;
+}
+
+li {
+    color: blueviolet;
+}

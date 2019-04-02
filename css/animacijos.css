@@ -1,0 +1,11 @@
+@keyframes bandymas {
+    from {opacity: 0}
+    to{opacity: 1}
+}
+
+body{
+    opacity: 0;
+    animation-name: bandymas;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}

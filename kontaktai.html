@@ -3,6 +3,9 @@
 <head>
     <title>Tautvydas Dulskis - Apie</title>
     <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/dizainas.css">
 </head>
 <body>
 <header>
@@ -17,12 +20,22 @@
         <a href="/kontaktai.html">Kontaktai</a><br>
     </nav>
 </section>
-<main>
-    <div>
-        <h2>Tautvydas Dulskis</h2>
-        <img src="/img/profile.jpg" alt="Tautvydas Dulskis"/>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda incidunt labore modi, molestiae odit officiis omnis vero? A ad fugiat labore, minima nam natus nobis optio recusandae ut vero?
-    </div>
+<main class="container-fluid">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsam magnam quia repudiandae totam. Possimus sint sunt
+    suscipit. Eligendi, rem, sint. Cum distinctio eos itaque nulla quisquam quos rerum tempore.
+    <form action="siusti.php" method="post">
+        <div class="form-group">
+            <label for="fn">Tavo vardas</label>
+            <input type="text" name="vardas" id="fn" class="form-control">
+            <br>
+            <label for="em">Tavo el. paštas</label>
+            <input type="email" name="pastas" id="em" class="form-control">
+        </div>
+        <div class="form-group">
+            <textarea name="zinute" placeholder="Žinutė man..."></textarea>
+        </div>
+        <input type="submit" value="SEND" class="btn btn-success">
+    </form>
 </main>
 <footer>
     &copy; 2019 Visos teisės saugomos
