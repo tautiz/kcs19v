@@ -26,4 +26,4 @@ for (let i = 0; i < virsutinioMeniuElementai.length; ++i){
     let elementas = virsutinioMeniuElementai[i];
     elementas.addEventListener("click", uzkrautiTurini);
 }
-uzkrautiPuslapi('cv');
+uzkrautiPuslapi('apie');

@@ -1,6 +1,6 @@
 body {
-    background-color: aqua;
-    color: blue;
+    /*background-color: black;*/
+    color: black;
 }
 
 .profilio_foto {
@@ -26,4 +26,13 @@ body {
 
 li {
     color: blueviolet;
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
